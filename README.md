@@ -2,7 +2,9 @@
 
 This is a Python monitoring script that collects metrics (CPU, RAM, disks) and 
 sends alerts to Telegram when thresholds are exceeded. 
-Using the /status command in the bot, you can find out the current metrics.
+Using the /status command in the bot, you can find out the current metrics.<br>
+
+The data will be stored locally in a folder./monitor_data and on the container in /app/data/monitor.db
 
 # Quick start
 
