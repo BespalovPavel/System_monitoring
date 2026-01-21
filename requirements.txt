@@ -1,0 +1,6 @@
+psutil==7.2.1
+schedule==1.2.2
+asyncio==4.0.0
+python-dotenv==1.2.1
+aiosqlite==0.22.1
+aiogram==3.24.0

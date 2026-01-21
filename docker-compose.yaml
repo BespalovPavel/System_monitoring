@@ -1,0 +1,15 @@
+services:
+  app:
+    build: .
+    container_name: system_monitoring
+    command: python monitoring.py
+    restart: unless-stopped
+ 
+    pid: host
+    
+    volumes:
+      - ./monitor_data:/app/data
+      - /:/host:ro,rslave
+      
+    env_file:
+      - .env
